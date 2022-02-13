@@ -13,6 +13,11 @@ html{
     font-size: 62.5%;
 }
 /* # Reusable css blocks */
+
+.link-reset{
+    text-decoration: none;
+    color: inherit;
+}
 .list-reset li{
     list-style: none;
 }
@@ -95,7 +100,9 @@ html{
 .text-grey{
     color: var(--grey);
 }
-
+.text-white{
+    color: var(--white);
+}
 
 /* ## flexbox reusable blocks */
 .flex{
