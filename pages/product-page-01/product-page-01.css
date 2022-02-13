@@ -2,17 +2,18 @@
 
 body{
     display: grid;
-    grid-template:  8.3rem 4fr 1fr/1fr 2fr 2fr 2fr; 
+    grid-template:  8.3rem 4fr 1fr/20rem 1fr 1fr 1fr; 
     row-gap: 1rem;
     grid-template-areas:
     "nav nav nav nav"
-    "sidebar main main main"
+    ". main main main"
     "footer footer footer footer";
 }
 aside{
     grid-area: sidebar;
     position: fixed;
     top: 7rem;
+    max-width: 25rem;
     height: 100vh;
 }
 .container__main-content{
@@ -30,3 +31,4 @@ datalist {
 .input--range {
     width: 95%;
 }
+/* 
