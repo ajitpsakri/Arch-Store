@@ -7,11 +7,15 @@
     --grey:#E5E5E5;
     --white:white;
     --black:black;
+    --grey:grey;
 }
 html{
     font-size: 62.5%;
 }
 /* # Reusable css blocks */
+.list-reset li{
+    list-style: none;
+}
 
 /* ## border block */
 .br-round{
@@ -82,14 +86,21 @@ html{
 .bg-grey{
     background-color: var(--grey);
 }
+.bg-white{
+    background-color: var(--white);
+}
 .text-black{
     color: var(--black);
+}
+.text-grey{
+    color: var(--grey);
 }
 
 
 /* ## flexbox reusable blocks */
 .flex{
-    display:flex
+    display:flex;
+    flex-wrap: wrap;
 }
 .flex-col{
     flex-direction: column;
@@ -100,11 +111,28 @@ html{
 .flex-justi-spac-betw{
     justify-content: space-between;
 }
+.flex-justi-spac-even{
+    justify-content: space-evenly;
+}
 .flex-align-center{
     align-items: center;
 }
-
+.gap-5{
+    gap: 5px;
+}
+.gap-1rem{
+    gap: 1rem;
+}
+.gap-1_5rem{
+    gap: 1.5rem;
+}
+.gap-2rem{
+    gap: 2rem;
+}
 /* ## css boxmodel blocks */
+
+/* ### margin */
+
 .mg-0-1rem{
     margin: 0rem 1rem;
 }
@@ -180,16 +208,44 @@ html{
 .mg-right-2_5rem{
     margin-right: 2.5rem;
 }
+/* ### padding */
+
+.pd-1rem{
+    padding: 1rem;
+}
+.pd-1_5rem{
+    padding: 1.5rem;
+}
+.pd-2rem{
+    padding: 2rem;
+}
+.pd-2_5rem{
+    padding: 2.5rem;
+}
+
+
 /* # component lib modifications */
 
 .nav-container{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    grid-area: nav;
+    z-index: 2;
 }
+.nav-container .btn-sm{
+    width: 12rem;
+    height: 4.2rem;
+}
+.btn-float{
+    padding: 3px 5px;
+}
+
 /* #  General store styles */
 
-.container__main-content{ /*If not applicable in every page then put this block in respective page*/
+/* .container__main-content{ 
     margin:9rem 5rem 2rem 5rem;
-}
+} */

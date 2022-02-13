@@ -1,0 +1,30 @@
+@import url(../../css/main.css);
+
+body{
+    display: grid;
+    grid-template:  8.3rem 4fr 1fr/1fr 1fr 1fr 1fr; 
+    row-gap: 1rem;
+    grid-template-areas:
+    "nav nav nav nav"
+    "sidebar main main main"
+    "footer footer footer footer";
+}
+
+aside{
+    grid-area: sidebar;
+}
+.container__main-content{
+    grid-area: main;
+}
+.footer{
+    grid-area: footer;
+}
+datalist {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+  
+.input--range {
+    width: 95%;
+}
