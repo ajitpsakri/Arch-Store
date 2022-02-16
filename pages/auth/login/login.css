@@ -1,0 +1,7 @@
+@import url("../../../css/main.css");
+
+/*Modification cl */
+.btn{
+    max-height: 5rem;
+    font-size: 2rem;
+}
