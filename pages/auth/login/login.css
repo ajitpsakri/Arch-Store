@@ -1,7 +1,7 @@
 @import url("../../../css/main.css");
 
 /*Modification cl */
-.btn{
+.login-btn{
     max-height: 5rem;
     font-size: 2rem;
 }
