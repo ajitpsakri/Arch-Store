@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://sharp-ui.netlify.app/css/all-css-file.css"
+    />
+    <link rel="stylesheet" href="./login.css" />
+    <script
+      src="https://kit.fontawesome.com/1a8e4103d5.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Arch-store | Login</title>
+  </head>
+  <body class="bg-grey">
+    <div class="nav-container">
+      <h3><a class="link-reset" href="../../../index.html">Arch Store</a></h3>
+      <div class="nav-search">
+        <label for="search"><i class="fas fa-search"></i></label>
+        <input type="text" id="search" />
+      </div>
+      <div class="nav-actionables">
+        <div class="btn-container">
+          <button class="btn btn-sm btn-default">Login</button>
+        </div>
+        <div class="nav-badge-cont badge-container">
+          <div class="icon-container">
+            <i class="nav-icon far fa-heart">
+              <span class="nav-count badge-count">7</span>
+            </i>
+          </div>
+          <div class="icon-container">
+            <i class="nav-icon fas fa-shopping-cart">
+              <span class="nav-count badge-count">7</span>
+            </i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container__main-content flex flex-justify-center flex-align-center"
+    >
+      <div class="auth-login-container bg-white pd-2rem br-radius-11 width-30">
+        <div class="header text-center">
+          <h1>Login</h1>
+        </div>
+        <div class="main">
+          <div class="input-cont input-basic-container">
+            <label class="input-label" for="input">Email</label>
+            <input
+              placeholder="yourawsm@gmail.com"
+              class="input input-basic"
+              id="input"
+              type="text"
+            />
+          </div>
+          <div class="input-cont input-basic-container">
+            <label class="input-label" for="input">Password</label>
+            <input
+              placeholder=".................."
+              class="input input-basic"
+              id="input"
+              type="text"
+            />
+          </div>
+          <div class="secondary-actionables flex flex-justi-spac-betw">
+            <div class="checkbox">
+              <input type="checkbox" id="remind-me" />
+              <label for="remind-me">Remind me</label>
+            </div>
+            <p class="forget-password">
+              <a class="remove-underline" href="">Forgot your Password?</a>
+            </p>
+          </div>
+          <div class="footer-actionables flex flex-col text-center">
+            <button class="btn login-btn btn-primary">Login</button>
+            <span>
+              <a class="link-reset" href="">Create New Account ></a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer"></div>
+  </body>
+</html>

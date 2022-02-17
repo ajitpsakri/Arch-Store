@@ -16,15 +16,17 @@
     <title>Arch-store | Home-page</title>
   </head>
   <body class="bg-grey">
-    <div class="nav-container">
-      <h3>Arch Store</h3>
+    <nav class="nav-container">
+      <h3><a class="link-reset" href="#">Arch Store</a></h3>
       <div class="nav-search">
         <label for="search"><i class="fas fa-search"></i></label>
         <input type="text" id="search" />
       </div>
       <div class="nav-actionables">
         <div class="btn-container">
-          <button class="btn btn-sm btn-default">Login</button>
+          <a class="link-reset" href="./pages/auth/login/login.html">
+            <button class="btn btn-sm btn-default">Login</button>
+          </a>
         </div>
         <div class="nav-badge-cont badge-container">
           <div class="icon-container">
@@ -39,8 +41,8 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="container__main-content">
+    </nav>
+    <section class="container__main-content">
       <div class="featured__image">
         <img
           class="image image-responsive text-center br-radius-8"
@@ -78,7 +80,7 @@
         </a>
         <a
           class="link-reset"
-          href="./pages/product-page-01/product-page-01.html"
+          href="./pages/product-page-02/product-page-02.html"
         >
           <div class="card card-basic">
             <h3>Card Title 1</h3>
@@ -89,7 +91,7 @@
             <button class="btn btn-secondary">
               <a
                 class="link-reset text-white"
-                href="./pages/product-page-01/product-page-01.html"
+                href="./pages/product-page-02/product-page-02.html"
               >
                 Button1
               </a>
@@ -97,7 +99,7 @@
           </div>
         </a>
       </div>
-    </div>
-    <div class="footer"></div>
+    </section>
+    <footer class="footer"></footer>
   </body>
 </html>

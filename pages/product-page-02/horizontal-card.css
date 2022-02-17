@@ -1,0 +1,7 @@
+.card-ecommerce{
+    display: flex;
+    max-width: 50rem;
+}
+.card-ecom-header{
+    max-width: 20rem;
+}
