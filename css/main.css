@@ -10,11 +10,18 @@
     --black:black;
     --grey:grey;
     --blue:#3B82F6;
+    --red:#FF1B1B;
 }
 html{
     font-size: 62.5%;
 }
 /* # Reusable css blocks */
+/* ## position */
+.pos-abs-top-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
 /* ## length */
 /* ### width  */
@@ -133,6 +140,9 @@ html{
 }
 .text-white{
     color: var(--white);
+}
+.text-red{
+    color: var(--red)
 }
 
 /* ## flexbox reusable blocks */
