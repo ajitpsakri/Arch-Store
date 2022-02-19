@@ -30,6 +30,9 @@ html{
 .width-80{
     width: 80%;
 }
+.width-100{
+    width: 100%;
+}
 .text-center{
     text-align: center;
 }
@@ -161,7 +164,9 @@ html{
 /* ## css boxmodel blocks */
 
 /* ### margin */
-
+.mg-1rem{
+    margin: 1rem;
+}
 .mg-0-1rem{
     margin: 0rem 1rem;
 }
@@ -238,7 +243,9 @@ html{
     margin-right: 2.5rem;
 }
 /* ### padding */
-
+.pd-1010rem{
+    padding: 1rem 0rem 1rem 0rem;
+}
 .pd-1rem{
     padding: 1rem;
 }

@@ -1,4 +1,4 @@
-.card-ecommerce{
+.card-ecommerce{ /* if this causes conflicts then change class name*/
     display: flex;
     max-width: 50rem;
 }
