@@ -38,3 +38,6 @@ body{
     align-content: space-between;
     grid-area: price;
 }
+.main-wrapper .card-ecom-header{
+    max-width: 25rem;
+}
