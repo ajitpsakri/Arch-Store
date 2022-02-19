@@ -5,6 +5,7 @@
 }
 :root{
     --grey:#E5E5E5;
+    --light-grey:#f7f7f7;
     --white:white;
     --black:black;
     --grey:grey;
@@ -16,7 +17,6 @@ html{
 /* # Reusable css blocks */
 
 /* ## length */
-
 /* ### width  */
 
 .width-10{
@@ -29,6 +29,9 @@ html{
 }
 .width-80{
     width: 80%;
+}
+.width-100{
+    width: 100%;
 }
 .text-center{
     text-align: center;
@@ -110,8 +113,14 @@ html{
 }
 
 /* ## color blocks  */
+.shadow-basic{
+    box-shadow: 1px 1px 10px var(--grey);
+}
 .bg-grey{
     background-color: var(--grey);
+}
+.bg-light-grey{
+    background-color: var(--light-grey);
 }
 .bg-white{
     background-color: var(--white);
@@ -161,7 +170,9 @@ html{
 /* ## css boxmodel blocks */
 
 /* ### margin */
-
+.mg-1rem{
+    margin: 1rem;
+}
 .mg-0-1rem{
     margin: 0rem 1rem;
 }
@@ -238,7 +249,9 @@ html{
     margin-right: 2.5rem;
 }
 /* ### padding */
-
+.pd-1010rem{
+    padding: 1rem 0rem 1rem 0rem;
+}
 .pd-1rem{
     padding: 1rem;
 }
