@@ -5,6 +5,7 @@
 }
 :root{
     --grey:#E5E5E5;
+    --light-grey:#f7f7f7;
     --white:white;
     --black:black;
     --grey:grey;
@@ -16,7 +17,6 @@ html{
 /* # Reusable css blocks */
 
 /* ## length */
-
 /* ### width  */
 
 .width-10{
@@ -113,8 +113,14 @@ html{
 }
 
 /* ## color blocks  */
+.shadow-basic{
+    box-shadow: 1px 1px 10px var(--grey);
+}
 .bg-grey{
     background-color: var(--grey);
+}
+.bg-light-grey{
+    background-color: var(--light-grey);
 }
 .bg-white{
     background-color: var(--white);
