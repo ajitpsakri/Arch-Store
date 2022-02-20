@@ -9,11 +9,12 @@
       href="https://sharp-ui.netlify.app/css/all-css-file.css"
     />
     <link rel="stylesheet" href="../login/login.css" />
+    <link rel="stylesheet" href="./logout.css" />
     <script
       src="https://kit.fontawesome.com/1a8e4103d5.js"
       crossorigin="anonymous"
     ></script>
-    <title>Arch-store | Sign Up</title>
+    <title>Arch-store | Logout</title>
   </head>
   <body class="bg-grey">
     <div class="nav-container">
@@ -23,9 +24,11 @@
         <input type="text" id="search" />
       </div>
       <div class="nav-actionables">
-        <div class="btn-container">
-          <button class="btn btn-sm btn-default">Login</button>
-        </div>
+        <a href="../login/login.html" class="link-reset">
+          <div class="btn-container">
+            <button class="btn btn-sm btn-default">Login</button>
+          </div>
+        </a>
         <div class="nav-badge-cont badge-container">
           <div class="icon-container">
             <a class="link-reset" href="../../wishlist/wishlist.html">
@@ -53,53 +56,12 @@
       class="container__main-content flex flex-justify-center flex-align-center"
     >
       <div class="auth-login-container bg-white pd-2rem br-radius-11 width-30">
-        <div class="header text-center">
-          <h1>Signup</h1>
-        </div>
-        <div class="main">
-          <div class="input-cont input-basic-container">
-            <label class="input-label" for="input">Email</label>
-            <input
-              placeholder="yourawsm@gmail.com"
-              class="input input-basic"
-              id="input"
-              type="text"
-            />
-          </div>
-          <div class="input-cont input-basic-container">
-            <label class="input-label" for="input">Password</label>
-            <input
-              placeholder=".................."
-              class="input input-basic"
-              id="input"
-              type="text"
-            />
-          </div>
-          <div class="input-cont input-basic-container">
-            <label class="input-label" for="input">Confirm password</label>
-            <input
-              placeholder=".................."
-              class="input input-basic"
-              id="input"
-              type="text"
-            />
-          </div>
-          <div class="secondary-actionables flex flex-justi-spac-betw">
-            <div class="checkbox">
-              <input type="checkbox" id="remind-me" />
-              <label for="remind-me">I accept all Terms & Conditions</label>
-            </div>
-          </div>
-          <div class="footer-actionables flex flex-col text-center">
-            <button class="btn login-btn btn-primary">
-              Create New Account
-            </button>
-            <span>
-              <a class="link-reset" href="../login/login.html"
-                >Already have an account ></a
-              >
-            </span>
-          </div>
+        <div class="main text-center">
+          <h1 class="pd-1010rem">Logged out</h1>
+          <p class="pd-1010rem">Goodbye,Thanks for using Arc-store</p>
+          <button class="btn btn-outline-primary width-100 pd-1010rem">
+            Sign in again
+          </button>
         </div>
       </div>
     </div>
